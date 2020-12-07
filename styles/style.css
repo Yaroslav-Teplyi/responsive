@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Cyrvetica;
+    src: url(../fonts/Cyrvetica.otf);
+}
+
+* {
+    margin: 0;
+}
+
+.main {
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.main__title {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-family: Cyrvetica, sans-serif;
+}
+
+.main__list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.main__list-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 5px; 
+    list-style-type: none;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    color: #ffffff;
+}
+
+.main__list-item-desc {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.container ul:nth-child(1) li:nth-child(1){
+    background-image: url(../img/1.jpg);
+}
+
+.container ul:nth-child(1) li:nth-child(2){
+    background-image: url(../img/2.jpg);
+    color: #000000;
+}
+
+.container ul:nth-child(1) li:nth-child(3){
+    background-image: url(../img/3.jpg)
+}
+
+.container ul:nth-child(2) li:nth-child(1){
+    background-image: url(../img/4.jpg);
+    color: #000000;
+}
+
+.container ul:nth-child(2) li:nth-child(2){
+    background-image: url(../img/5.png)
+}
+
+.container ul:nth-child(2) li:nth-child(3){
+    background-image: url(../img/6.jpg)
+}
+
+.container ul:nth-child(2) li:nth-child(4){
+    background-image: url(../img/7.jpg)
+}
+
+.container ul:nth-child(3) li:nth-child(1){
+    background-image: url(../img/8.jpg)
+}
+
+.container ul:nth-child(3) li:nth-child(2){
+    background-image: url(../img/9.jpg)
+}
+
+.container ul:nth-child(3) li:nth-child(3){
+    background-image: url(../img/10.png)
+}
+
+.container ul:nth-child(3) li:nth-child(4){
+    background-image: url(../img/11.png)
+}
+
+.container ul:nth-child(4) li:nth-child(1){
+    background-image: url(../img/12.jpg)
+}
+
+.container ul:nth-child(4) li:nth-child(2){
+    background-image: url(../img/13.jpg);
+    color: #000000;
+}
+
+.container ul:nth-child(4) li:nth-child(3){
+    background-image: url(../img/14.jpg)
+}
+
+.black-letters {
+    color: #000000;
+}
